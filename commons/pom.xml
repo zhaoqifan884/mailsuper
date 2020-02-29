@@ -18,6 +18,9 @@
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+    <modules>
+        <module>commons-utils</module>
+    </modules>
 
     <developers>
         <developer>
