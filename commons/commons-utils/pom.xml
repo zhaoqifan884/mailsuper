@@ -42,11 +42,7 @@
             <scope>provided</scope>
         </dependency>
         <!--java反序列化-->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <scope>provided</scope>
-        </dependency>
+
         <!--对象化组件  对象池-->
         <dependency>
             <groupId>org.apache.commons</groupId>
