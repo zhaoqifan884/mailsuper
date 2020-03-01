@@ -41,6 +41,12 @@
             <scope>import</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.zqf.super.mail</groupId>
+            <artifactId>commons-provider</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+
 
 
     </dependencies>

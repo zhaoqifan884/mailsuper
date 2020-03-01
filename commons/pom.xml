@@ -21,6 +21,7 @@
     <modules>
         <module>commons-utils</module>
         <module>commons-provider</module>
+        <module>commons-dto</module>
     </modules>
 
     <developers>
