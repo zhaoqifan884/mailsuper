@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zqf.mail.provider.mapper.MailRecommendMapper">
+  <resultMap id="BaseResultMap" type="com.zqf.mail.provider.domain.MailRecommend">
+    <!--@mbg.generated generated on Tue Mar 03 17:39:50 CST 2020.-->
+    <!--@Table mail_recommend-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="image" jdbcType="VARCHAR" property="image" />
+    <result column="link" jdbcType="VARCHAR" property="link" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Tue Mar 03 17:39:50 CST 2020.-->
+    id, image, link, sort, title
+  </sql>
+</mapper>
