@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="commonMapperBaseClass" value="tk.mybatis.mapper.MyMapper" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="javaMapperPackage" value="com.zqf.mail.provider.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/provider/provider-api/src/main/java" />
+        <option name="javaModelPackage" value="com.zqf.mail.provider.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/provider/provider-api/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="provider-api" />
+        <option name="lombokDataAnnotation" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="provider-api">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.zqf.mail.provider.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/provider/provider-api/src/main/java" />
+                  <option name="javaModelPacakge" value="com.zqf.mail.provider.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/provider/provider-api/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.zqf.mail.provider.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/provider/provider-api/src/main/java" />
+                  <option name="javaServicePackage" value="com.zqf.mail.provider.service" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/provider/provider-api/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="D:\zhao_workSpces\supermail\provider\provider-service\src\main\resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+            <entry key="provider-service">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.zqf.mail.provider.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/provider/provider-service/src/main/java" />
+                  <option name="javaModelPacakge" value="com.zqf.mail.provider.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/provider/provider-service/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.zqf.mail.provider.api" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/provider/provider-service/src/main/java" />
+                  <option name="javaServicePackage" value="com.zqf.mail.provider.service" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/provider/provider-service/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/provider/provider-service/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="supermail:mail_banner">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="MailBanner" />
+                  <option name="moduleName" value="provider-api" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="supermail:mail_recommend">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="MailRecommend" />
+                  <option name="moduleName" value="provider-api" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useCommonMapper" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="D:\zhao_workSpces\supermail\provider\provider-service\src\main\resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
