@@ -1,10 +1,12 @@
 package com.zqf.mail.provider.service;
 
 import com.zqf.mail.provider.api.MailBannerService;
+import com.zqf.mail.provider.domain.MailBanner;
 import com.zqf.mail.provider.mapper.MailBannerMapper;
 import org.apache.dubbo.config.annotation.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * 
@@ -24,4 +26,9 @@ public class MailBannerServiceImpl implements MailBannerService {
     @Resource
     private MailBannerMapper mailBannerMapper;
 
+
+    @Override
+    public List<MailBanner> get() {
+        return mailBannerMapper.selectAll();
+    }
 }

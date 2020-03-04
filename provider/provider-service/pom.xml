@@ -69,7 +69,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.zqf.mail.provider.ProviderBannerApplication</mainClass>
+                    <mainClass>com.zqf.mail.provider.ProviderAdminApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

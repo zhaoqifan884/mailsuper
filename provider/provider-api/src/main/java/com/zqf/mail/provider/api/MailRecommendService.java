@@ -1,4 +1,9 @@
 package com.zqf.mail.provider.api;
+
+import com.zqf.mail.provider.domain.MailRecommend;
+
+import java.util.List;
+
 /**
  *
  * <p>
@@ -13,5 +18,6 @@ package com.zqf.mail.provider.api;
  */
 public interface MailRecommendService {
 
+    List<MailRecommend> get();
 
 }

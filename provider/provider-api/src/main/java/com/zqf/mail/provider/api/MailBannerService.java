@@ -1,4 +1,9 @@
 package com.zqf.mail.provider.api;
+
+import com.zqf.mail.provider.domain.MailBanner;
+
+import java.util.List;
+
 /**
  *
  * <p>
@@ -12,6 +17,12 @@ package com.zqf.mail.provider.api;
  *
  */
 public interface MailBannerService{
+
+    /**
+     * 获取轮播图信息
+     * @return
+     */
+    List<MailBanner> get();
 
 
 }

@@ -1,9 +1,13 @@
 package com.zqf.mail.provider.service;
 
+import com.zqf.mail.provider.api.MailRecommendService;
+import com.zqf.mail.provider.domain.MailRecommend;
 import com.zqf.mail.provider.mapper.MailRecommendMapper;
 import org.apache.dubbo.config.annotation.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
+
 /**
  *
  * <p>
@@ -17,9 +21,13 @@ import javax.annotation.Resource;
  *
  */
 @Service
-public class MailRecommendServiceImpl {
+public class MailRecommendServiceImpl implements MailRecommendService {
 
     @Resource
     private MailRecommendMapper mailRecommendMapper;
 
+    @Override
+    public List<MailRecommend> get() {
+        return mailRecommendMapper.selectAll();
+    }
 }
