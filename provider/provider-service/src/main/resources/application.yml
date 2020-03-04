@@ -1,0 +1,38 @@
+
+spring:
+  application:
+    name: admin-provider
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/supermail?characterEncoding=UTF-8
+    username: root
+    password: 8840580
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 5
+      auto-commit: true
+      pool-name: MyHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+    driver-class-name: com.mysql.jdbc.Driver
+dubbo:
+  scan:
+    base-packages: com.zqf.mail.provider.service
+  protocol:
+    name: dubbo
+    port: 20081
+    serialization: kryo
+  registry:
+    address: nacos://127.0.0.1
+    port: 8848
+mybatis:
+  #  type-aliases-package:com.zqf.myshop.pro.provider.domain
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+server:
+  port: 80
