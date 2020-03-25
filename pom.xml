@@ -7,6 +7,8 @@
         <module>dependencies</module>
         <module>provider</module>
         <module>commons</module>
+        <module>business</module>
+        <module>gateway</module>
     </modules>
 
     <parent>
